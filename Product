@@ -31,7 +31,7 @@ public class ProductNames {
             String result = input.nextLine();
 
             if (result.equalsIgnoreCase("approved")) {
-                System.out.printf("Payment successful: OMR %.3f%n", totalBill);
+                System.out.printf("Payment discount successful: OMR %.3f%n", totalBill);
                 System.out.println("Thank you for your purchase!");
             } else {
                 System.out.println("Payment unsuccessful. Please try again.");
